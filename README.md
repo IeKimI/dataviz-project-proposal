@@ -2,13 +2,14 @@
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is MoMA Artwork Collection from https://github.com/MuseumofModernArt/collection. 
 
 ## Prototypes
 
 I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
 
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
+[![image](https://user-images.githubusercontent.com/59063929/219912741-5291a67d-87e6-4432-a514-cd42bbb8019f.png)]
+(https://vizhub.com/IeKimI/fe22591fde004f0191b1e44c4acc1b9a)
 
 (please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
 
@@ -25,10 +26,10 @@ Also, you can study the [source](https://raw.githubusercontent.com/curran/datavi
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+ * Which mediums were used the most?
+ * How did the use of medium change over time?
+ * What is the percentage of each department category?
+ * How many artworks are there from this particular artist?
 
 ## Sketches
 
