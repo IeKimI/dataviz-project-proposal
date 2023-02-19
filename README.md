@@ -32,10 +32,12 @@ The following tasks and questions will drive the visualization and interaction d
 ## Sketches
 
 ![image](https://user-images.githubusercontent.com/59063929/219982038-36a3f517-0bc3-4490-a9d2-5571e7faa8ff.png)
+
 This is the first sketch of ideas I had for this project. The categorical columns such as classification or department are displayed in pie chart. For visualizations that are meant to display the frequency or count, I decided to sketch them in a histogram/bar chart format. Lastly, to display artworks by time, I thought it would be helpful to display it in a timeline format. The goal is to make these visualizations interactive. For example, when a user clicks on a bar, update or filter other graphs depending on user input/interest. This way, it would be easier for users to understand the data better since it can display a lot of data in a clean and organized manner and make the visualization more engaging.
 
 
 ![image](https://user-images.githubusercontent.com/59063929/219982074-68414419-fcbe-456e-82a8-4e88089cc458.png)
+
 This is the iterated design. I modified two visualizations from the previous sketch. The first is a stacked bar. I think this shows how the medium changed over time as well as which medium was most popular at a certain period. This can be done for other category types such as classification, department, etc. The second idea is to assign different colors or sizes for each category.
 
 ## Open Questions
@@ -45,10 +47,17 @@ I am not sure how difficult it would be to make most of the visualizations inter
 ## Milestones
 
 Week 7: Make the streamgraph interactive (Add mouseover function) and figure out how to bin the data.
+
 Week 8: Add drill-down interactions.
+
 Week 9: Create pie charts.
+
 Week 10: Create histograms.
+
 Week 11: Add interactions (hover, highlighting, etc).
+
 Week 12: Put visualizations together.
+
 Week 13: Add filtering and aggregation options.
+
 Week 14: Make final changes and prepare for the presentation.
