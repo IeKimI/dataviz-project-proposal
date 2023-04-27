@@ -6,6 +6,7 @@
 
 The data I used to visualize for my project is MoMA Artwork Collection from https://github.com/MuseumofModernArt/collection. 
 I love going to art museums, and I always found it difficult to see what types of artworks museums have. I would love to create visualizations that would help visitors filter artworks by the medium used, department, period, etc to provide an easier way to find what they are looking for/interested in when visiting museums.
+https://gist.github.com/IeKimI/6f1a577dd746202d359a30053805d7ed
 
 ## Questions & Tasks
 
