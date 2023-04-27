@@ -1,7 +1,7 @@
 # Data Visualization Project
 ## The Museum of Modern Art (MoMA) Collection
 
----
+
 ## Data
 
 The data I used to visualize for my project is MoMA Artwork Collection from https://github.com/MuseumofModernArt/collection. 
@@ -49,8 +49,32 @@ I decided to change my stacked bar chart to a streamgraph for the iteration. Str
 
 
 ## Results
+
+This is a visualization of artworks by Artist. There is a dropdown menu of artists and once an artist is selected, two buttons are displayed. "View Gallery" and "View Histogram". "View Gallery" directs to another tab with all the artworks created by the selected artist. "View Histogram" shows the number of artworks the artist created over time.
+
 ![Screen Shot 2023-04-26 at 7 20 28 PM](https://user-images.githubusercontent.com/59063929/234722810-fc525afc-a24b-420e-89e5-1f7de7872622.png)
+(https://vizhub.com/IeKimI/6ab4774a0c784f66a3d4c90ea8d5e9a6)
+
+
+This is a streamgraph that showws the medium most used over time. I filled in the missing values that were creating white gaps and applied smoothing.
+Using d3-area-label, I added labels and for labels that are too small, color legend is available.
+I also added a hover effect so when you hover an area, it is outlined with a white border and filled with higher opacity.
 ![Screen Shot 2023-04-26 at 7 20 53 PM](https://user-images.githubusercontent.com/59063929/234722845-82b0773e-4977-409f-a365-fb2f7e247193.png)
+(https://vizhub.com/IeKimI/d53fd658b3614a9ca281cd3153701018)
+
+
+This is a tree map showing artists' nationality. There are artworks that were created by Americans the most, and German, French, and British respectively.
+When you hover over an area, a tool tip shows up with the nationality and the number of artists with the same nationality.
 ![Screen Shot 2023-04-26 at 7 21 04 PM](https://user-images.githubusercontent.com/59063929/234722873-7ff17f70-0d52-4715-9a14-cd1e492c054d.png)
+(https://vizhub.com/IeKimI/e4286b8b782648de9f4871dc7bdb7212)
+
+
+I combined a tree and two pie charts that were created using Department and Classification columns in the MoMA dataset.
+I also changed the color scheme to categorize different nodes and their children better. By looking at the visualization, you can see that there are more artworks from the Architecture & Design department and Design takes up the most pie chart on the left side, which means that there are artworks that are classified as "Design".
 ![Screen Shot 2023-04-26 at 7 21 15 PM](https://user-images.githubusercontent.com/59063929/234722904-5d17196f-11b0-4b45-8da4-5719522b4f8b.png)
+(https://vizhub.com/IeKimI/19352f8c88a1407ba2ec27940469a1a2)
+
+
+After working on different kinds of visualizations, I combined them all in this visualization. I decided to have a frame effect for each visualization, since this is about MoMA artworks dataset. When you click on the frame, the clicked visualization is expanded, and to put it back to the origianl size, you can click the frame again or click the "Back to Home" button.
 ![Screen Shot 2023-04-26 at 7 21 33 PM](https://user-images.githubusercontent.com/59063929/234722938-f9059dc5-c050-45c4-8d8c-10badc883d3a.png)
+(https://vizhub.com/IeKimI/0a26c26c18e2447ea6a0462ea1a8f9ee)
